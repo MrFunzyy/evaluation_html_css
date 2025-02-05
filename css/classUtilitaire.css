@@ -1,0 +1,52 @@
+.kufam {
+    font-family: "Kufam", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+/* Je peux gerer la taille des cartes en desktop ici */
+.carte {
+    width: 30%;
+    padding: 15px;
+    border-radius: 20px;
+    border: #AC7961;
+    border-style: dotted;
+}
+
+.fa-cart-plus {
+    margin-right: 15px;
+}
+
+.beige {
+    background-color: #FAE5D1;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    /* Permet de retourner à la ligne sans dépasser de la div */
+    background-clip: border-box;
+}
+
+.shadow {
+    box-shadow: 0px 0px 5px black;
+}
+
+.ttc {
+    font-size: 10px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.barrer {
+    text-decoration: line-through;
+}
+
+.fa-star {
+    color: #AC7961;
+    font-size: 18px;
+}
